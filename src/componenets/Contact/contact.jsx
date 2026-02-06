@@ -14,6 +14,11 @@ import portfolio from '../../assets/user1.png'
 import solar from '../../assets/solar1.png'
 import backend from '../../assets/backend.png'
 import rjs from '../../assets/rjs.png'
+import agent1 from '../../assets/agent1.jpg'
+import agent2 from '../../assets/agent2.jpg'
+import gpt from '../../assets/gpt.png'
+import rag from '../../assets/rag.png'
+
 
 emailjs.init('Jy-lDRfahYIiyBOlHE6Jr');
 
@@ -29,9 +34,38 @@ const Contact = () => {
             My Projects
           </h1>
           <p className="clientdescription">
-            I have made various project including react native project , node js/express js project , react js projects , three js project , HTML/CSS/JS projects. Click on below Image to see the respective codes on Github.
+            I have built diverse projects using React Native, React.js, Node.js/Express.js, Three.js, and core web technologies, along with Generative AI solutions including LLM-powered chatbots, RAG systems, and AI agents. These projects demonstrate real-world problem solving, clean architecture, and modern development practices. Click the images below to view the project repositories on GitHub.
           </p>
           <div className="clientimgs">
+            <div className="image-container"
+              onMouseEnter={() => setHoveredImage('gpt')}
+              onMouseLeave={() => setHoveredImage(null)}>
+              <a href="https://github.com/Usersharmahub10/Marvel_086" target="_blank" rel="noopener noreferrer">
+                <img src={gpt} alt="snake" className="clientimg" />
+                {hoveredImage === 'gpt' && <div className="image-title">CHATGPT CLONE (HTML, CSS, JAVASCRIPT, NODE.JS, GROQ LLM)</div>}
+              </a>
+            </div><div className="image-container"
+              onMouseEnter={() => setHoveredImage('agent1')}
+              onMouseLeave={() => setHoveredImage(null)}>
+              <a href="https://github.com/Usersharmahub10/Marvel_086" target="_blank" rel="noopener noreferrer">
+                <img src={agent1} alt="snake" className="clientimg" />
+                {hoveredImage === 'agent1' && <div className="image-title">AI EMAIL SUPPORT AGENT (NODE.JS, LANGCHAIN, GROQ LLM, ZOD)</div>}
+              </a>
+            </div><div className="image-container"
+              onMouseEnter={() => setHoveredImage('agent2')}
+              onMouseLeave={() => setHoveredImage(null)}>
+              <a href="https://github.com/Usersharmahub10/Marvel_086" target="_blank" rel="noopener noreferrer">
+                <img src={agent2} alt="snake" className="clientimg" />
+                {hoveredImage === 'agent2' && <div className="image-title">PERSONAL FINANCE AI AGENT (NODE.JS, JAVASCRIPT, GROQ LLM, FUNCTION CALLING)</div>}
+              </a>
+            </div><div className="image-container"
+              onMouseEnter={() => setHoveredImage('rag')}
+              onMouseLeave={() => setHoveredImage(null)}>
+              <a href="https://github.com/Usersharmahub10/Marvel_086" target="_blank" rel="noopener noreferrer">
+                <img src={rag} alt="snake" className="clientimg" />
+                {hoveredImage === 'rag' && <div className="image-title">COMPANY KNOWLEDGE CHATBOT – RAG (NODE.JS, VECTOR DATABASE, EMBEDDINGS, RAG)</div>}
+              </a>
+            </div>
 
             <div className="image-container"
               onMouseEnter={() => setHoveredImage('marvel')}
