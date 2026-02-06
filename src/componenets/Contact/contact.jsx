@@ -40,28 +40,30 @@ const Contact = () => {
             <div className="image-container"
               onMouseEnter={() => setHoveredImage('gpt')}
               onMouseLeave={() => setHoveredImage(null)}>
-              <a href="https://github.com/Usersharmahub10/Marvel_086" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Usersharmahub10/ChatGPT-clone-" target="_blank" rel="noopener noreferrer">
                 <img src={gpt} alt="snake" className="clientimg" />
                 {hoveredImage === 'gpt' && <div className="image-title">CHATGPT CLONE (HTML, CSS, JAVASCRIPT, NODE.JS, GROQ LLM)</div>}
               </a>
             </div><div className="image-container"
               onMouseEnter={() => setHoveredImage('agent1')}
               onMouseLeave={() => setHoveredImage(null)}>
-              <a href="https://github.com/Usersharmahub10/Marvel_086" target="_blank" rel="noopener noreferrer">
+              <a href=" https://github.com/Usersharmahub10/Email-Reading-Refund-Agent
+" target="_blank" rel="noopener noreferrer">
                 <img src={agent1} alt="snake" className="clientimg" />
                 {hoveredImage === 'agent1' && <div className="image-title">AI EMAIL SUPPORT AGENT (NODE.JS, LANGCHAIN, GROQ LLM, ZOD)</div>}
               </a>
             </div><div className="image-container"
               onMouseEnter={() => setHoveredImage('agent2')}
               onMouseLeave={() => setHoveredImage(null)}>
-              <a href="https://github.com/Usersharmahub10/Marvel_086" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Usersharmahub10/PERSONAL-FINANCE-AI-AGENT" target="_blank" rel="noopener noreferrer">
                 <img src={agent2} alt="snake" className="clientimg" />
                 {hoveredImage === 'agent2' && <div className="image-title">PERSONAL FINANCE AI AGENT (NODE.JS, JAVASCRIPT, GROQ LLM, FUNCTION CALLING)</div>}
               </a>
             </div><div className="image-container"
               onMouseEnter={() => setHoveredImage('rag')}
               onMouseLeave={() => setHoveredImage(null)}>
-              <a href="https://github.com/Usersharmahub10/Marvel_086" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/Usersharmahub10/COMPANY-KNOWLEDGE-CHATBOT-RAG-
+" target="_blank" rel="noopener noreferrer">
                 <img src={rag} alt="snake" className="clientimg" />
                 {hoveredImage === 'rag' && <div className="image-title">COMPANY KNOWLEDGE CHATBOT – RAG (NODE.JS, VECTOR DATABASE, EMBEDDINGS, RAG)</div>}
               </a>
